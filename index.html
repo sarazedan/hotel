@@ -1,0 +1,437 @@
+<!doctype html >
+<html lang="en">
+		<head>
+			<meta charset ="utf-8">
+			<meta name ="description" content="welcome to my website">
+			
+			<!--internet explore compatablity meta -->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<!--first mobile meta -->
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">		
+			
+			<title>Hotel Website Page</title>
+			<link rel="icon" type="image/png" href="imges/icon.png" />
+			
+			<link rel="styleSheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+			
+			
+			<link rel="styleSheet" href="css/fontawesome.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+			<link rel="styleSheet" href="css/style.css">
+			<link rel="styleSheet" href="css/hover.css">
+			
+			<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' >
+					<!--[if lt IE 9]>
+				  <script src="js/html5shiv.min.js"></script>
+				  <script src="js/respond.min.js"></script>
+				<![endif]-->
+
+
+		</head>
+	 
+	 
+		<body>
+		
+		    <!--start nav bar--> 
+			
+			
+			   <nav class="navbar navbar-light  navbar-expand-md "style="background-color:white;" >
+			   
+			   
+			        <div class="container">
+								 
+								  
+								   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="navbar-toggler-icon"></span>
+								  </button>
+								  
+								  
+								   <div class="collapse navbar-collapse" id="mainnav">
+										<ul class="navbar-nav mr-auto">
+										  <li class="nav-item active ">
+											<a class="nav-link hvr-pop" href="index.html"  style="color:#af421d; margin-bottom:10px;"><i class="fa fa-bed fa-fw fa-2x "></i>LOGIN<span class="sr-only">(current)</span> </a>
+										  </li>
+										
+									
+											  <li class="nav-item ">
+												<a class="nav-link hvr-pop "  style="color:black; margin-top:10px; margin-bottom:10px;" href="#room">ROOMS </a>
+											  </li>
+											   <li class="nav-item ">
+												<a class="nav-link hvr-pop" style="color:black; margin-top:10px;margin-bottom:10px;" href="#about">ABOUT US</a>
+											  </li>
+											 
+											   <li class="nav-item ">
+												<a class="nav-link hvr-pop" style="color:black;margin-top:10px;margin-bottom:10px;" href="#con">CONTACT US</a>
+											  </li>
+										</ul>
+										<ul class="navbar-nav ml-auto ">
+										   <li class="nav-item ">
+											<a class="nav-link hvr-pop  " style="color:#af421d; margin-top:10px;margin-bottom:10px;" href="#footer">BOOK NOW</a>
+										  </li>
+										</ul>
+									</div>
+					</div>
+					
+                </nav>
+			
+			<!--end nav bar--> 
+			
+			
+			<!--start  header-->
+			    <div class="header">
+				   <div class="overlay">
+							<div class="container">
+							
+									<div class="card text-white  mb-3" style="max-width: 24rem; background-color:white;">
+									  <div class="card-header" style="font-size:25px;"><i class="fa fa-bed fa-2x" style="padding-right:20px; "></i>Hotel Name</div>
+									  <div class="card-body">
+									  
+									     
+											<form action="/action_page.php" target="_blank" text-center style="color:black">
+											
+											   <div class="row">
+														    <div class="col-sm">
+													   
+														
+														       <label><i class="fa fa-calendar-o fa-1x"></i> Check In</label>
+														
+														    </div>
+														    <div class="col-sm">
+														         <input type="text" placeholder="DD MM YYYY" name="CheckIn" required>
+														    </div>
+															
+												</div>
+												 <div class="row">
+														    <div class="col-sm">
+													   
+												
+												             <label><i class="fa fa-calendar-o fa-1x"></i> Check Out</label>
+												            </div>
+															 <div class="col-sm">
+												               <input  type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+												              </div>
+													</div>
+												
+												 <div class="row">
+														    <div class="col-sm">
+													   
+												             <label><i class="fa fa-male fa-1x"></i> Adults</label>
+												
+												            </div>
+															 <div class="col-sm">
+												               <input  style="width:180px;height:30px" type="number" value="1" name="Adults" min="1" max="6">
+															  </div>
+												</div>
+												 <div class="row">
+														    <div class="col-sm">
+													   
+												
+												               <label><i class="fa fa-child fa-1x" ></i> Kids</label>
+															   
+															</div>
+															 <div class="col-sm">
+												                  <input style="width:180px;height:30px" type="number" value="0" name="Kids" min="0" max="6">
+																  
+															</div>
+												</div>
+												<button  type="submit" style="font-size:15px;padding-bottom:10px;margin-left:60px;margin-top:20px; background-color:#af421d ; color:white"><i class="fa fa-search fa-2x " style="padding-right:10px; "></i> Search availability</button>
+													  
+												
+								
+											</form>
+						
+									      
+									  </div>
+									</div>
+							
+								
+								
+							</div>
+							
+					</div>
+				
+				</div>
+			   
+			   
+			   
+			
+			<!--end  header-->
+			<!-- start Page content -->
+			
+			<div class="cont" id="room">
+			    <h1 style="color:#af421d;font-size:50px;padding-top:40px; font-weight:bold"class="text-center" >Rooms</h1>
+               <p style="color:white;font-size:15px;padding-left:20px;padding-bottom:30px" class="text-center">Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+			   <div class="container">
+			   
+			     <div class="row"style="color:#af421d">
+				 
+				    <div class="col-sm">
+					
+					   <label><i class="fa fa-calendar-o fa-1x"></i> Check In</label>
+                       <input type="text" placeholder="DD MM YYYY">
+					</div>
+					 <div class="col-sm">
+					 <label><i class="fa fa-calendar-o"></i> Check Out</label>
+                      <input  type="text" placeholder="DD MM YYYY">
+					 </div>
+					 
+					  <div class="col-sm">
+					   <label><i class="fa fa-male"></i> Adults</label>
+                        <input type="number" placeholder="1">
+					  </div>
+					   <div class="col-sm">
+					   <label><i class="fa fa-child"></i> Kids</label>
+                        <input type="number" placeholder="0">
+					   </div>
+					    <div class="col-sm">
+						 <label><i class="fa fa-search"></i> Search</label><br>
+                         <button style="width:170px;height:30px;background-color:#352012 ; color:white;padding-bottom:25px"text-center>Search</button>
+						</div>
+					
+				 
+				 </div>
+				</div>
+			
+			
+			</div>
+			
+			<!-- end Page content -->
+			
+			<!--start latest post-->
+		        <div class="latest-post ">
+                    <div class="container">
+						   
+						
+						
+						<div class="row "style="color:#af421d">
+						        <div class="col-md-6 col-lg-4">
+									<div class="card" >
+										  <img class="card-img-top" src="imges/single.jpg" alt="Card image cap">
+											  <div class="card-body">
+												<h5 class="card-title">Single Room</h5>
+												<h6 class="card-subtitle mb-2 text-muted">From $99</h6>
+												<p class="card-text">Single bed</p>
+												<p>15m<sup>2</sup></p>
+												 <p ><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+												<button style="background-color:#352012 ; color:white">Choose Room</button>
+											   </div>
+									</div>
+									   
+								</div>
+								
+								 <div class="col-md-6 col-lg-4">
+									<div class="card" >
+										  <img class="card-img-top" src="imges/double.jpg" alt="Card image cap">
+											  <div class="card-body">
+												<h5 class="card-title">Double Room</h5>
+												<h6 class="card-subtitle mb-2 text-muted">From $149</h6>
+												<p class="card-text">Queen-size bed</p>
+												<p>25m<sup>2</sup></p>
+												 <p ><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> </i> <i class="fa fa-tv"></i></p>
+												<button style="background-color:#352012 ; color:white">Choose Room</button>
+											   </div>
+									</div>
+									   
+								</div>
+								
+								 <div class="col-md-6 col-lg-4">
+									<div class="card" >
+										  <img class="card-img-top" src="imges/deluxe2.jpg" alt="Card image cap">
+											  <div class="card-body">
+												<h5 class="card-title">Deluxe Room</h5>
+												<h6 class="card-subtitle mb-2 text-muted">From $199</h6>
+												<p class="card-text">King-size bed</p>
+												<p>40m<sup>2</sup></p>
+												 <p ><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-glass"></i> <i class="fa fa-cutlery"></i></p>
+												<button style="background-color:#352012 ; color:white">Choose Room</button>
+											   </div>
+									</div>
+									   
+								</div>
+								
+						</div>
+						
+						
+		            </div>
+		        </div>
+		
+		
+		
+		<!--end latest post-->
+		
+		<!--start about-->
+		<div class="abou"id="about">
+				 <h3 class=" text-center" style="font-size:50px;color:#af421d;font-weight:bold;">About US</h3>
+			  <h6 class="text-muted" style="font-size:20px;color:white; padding-left:20px;">Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+			<p class=" text-center" style="font-size:30px;color:#af421d;font-weight:bold;padding:60px">We accept: <i class="fa fa-credit-card fa-1x"></i> <i class="fa fa-cc-mastercard "></i> <i class="fa fa-cc-amex "></i> <i class="fa fa-cc-cc-visa "></i><i class="fa fa-cc-paypal "></i></p>
+				
+		
+				<div class="container">
+						  <div class="row"style="padding-bottom:30px;">
+						    <div class="col-md-4 col-sm-12 hvr-pop">
+									<div  style="font-size:20px;color:#af421d;font-weight:bold" ><i class="fa fa-map-marker text-red"></i> 423 Some adr,shohadaa, menoufia</div>
+							</div>
+							 <div class="col-md-4 col-sm-12 hvr-pop">
+								<div style="font-size:20px;color:#af421d;font-weight:bold" ><i class="fa fa-phone text-red"></i> Phone: +20 12 01 23 45 69</div>
+							</div>
+							 <div class="col-md-4 col-sm-12 hvr-pop">
+								<div  style="font-size:20px;color:#af421d;font-weight:bold"><i class="fa fa-envelope text-red"></i> Email: hotel5star@yahoo.com</div>
+						     </div>
+				         </div>
+				</div>
+		</div>
+		
+		<!--end about-->
+		<!--start card-->
+		<div class="cardd text-center">
+		
+		<h6><i class="fa fa-info rounded-square fa-1x"style="border: 7px solid #af421d ;background-color:#af421d;"></i> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</h6>
+		</div>
+		<!--end card-->
+		<!--start our hotel-->
+		 <div class="ourhotel">
+			<h3 class=" text-center" style="font-size:50px;color:#af421d;font-weight:bold;padding-top:20px">Our Hotels</h3>
+			<h6 class=" text-center" style="font-size:20px;color:white; padding-left:20px;">You can find our hotels anywhere in the world:</h6>
+			
+			
+			 <div class="container">
+			  
+					<div class="row">
+					
+							 <div class="col-md-6 col-sm-12">
+							  <img src="imges/cinqueterre.jpg" alt="Cinque Terre" style="width:100%">
+							    <div class="card-img-overlay">
+							   <span style="color:#af421d">Cinque Terre</span>
+							   </div>
+							   
+								
+							</div>
+						
+						<div class="col-md-6 col-sm-12">
+						   <div class="row">
+										<div class="col-md-6 col-sm-12">
+											<img src="imges/sanfran.jpg" alt="San Francisco" style="width:100%;height:80%">
+											  <div class="card-img-overlay">
+											    <span style="color:#af421d">San Francisco</span>
+												</div>
+											   
+										 </div>
+										 <div class="col-md-6 col-sm-12">
+												 <img src="imges/paris.jpg" alt="Paris" style="width:100%;height:80%">
+												   <div class="card-img-overlay">
+												     <span style="color:#af421d">Paris</span>
+													 </div>
+												   
+										</div>
+										 
+							</div>
+							<div class="row">
+										
+										 <div class="col-md-6 col-sm-12">
+												   <img src="imges/pisa.jpg" alt="Pisa" style="width:100%;height:90%">
+												     <div class="card-img-overlay">
+												       <span style="color:#af421d">Pisa</span>
+													   </div>
+												  
+										</div>
+										<div class="col-md-6 col-sm-12">
+											  <img src="imges/newyork2.jpg" alt="New York" style="width:100%;height:90%">
+											   <div class="card-img-overlay">
+											    <span style="color:#af421d">New York</span>
+												</div>
+											 
+										</div>
+							</div>
+					  
+					    </div>
+					 
+					</div>
+			 
+			 </div>
+         </div>
+         <!--end our hotel-->
+		 
+		 <!--START CONTACT US -->
+	
+		    <div class="contact" id="con">
+			     <h1 class=" text-center" style="font-size:50px;color:#af421d;font-weight:bold;padding-top:40px ;margin-bottom:0px;"> CONTACT US </h1>
+				  <p  class=" text-center" style="font-size:20px;color:white;font-weight:bold;">If you have any questions, do not hesitate to ask them.</p>
+					
+								 
+                    <div class="container">
+		                <div class="row">
+			   
+			               <div class=" col-sm-12 col-lg-6 text-muted">
+						        <h3 style="color:#af421d" > Get in Touch </h3>
+								 <form>
+													 
+														
+														<div class="form-group">
+														  <label for="inputName4">Name</label>
+														  <input type="text" class="form-control" id="inputName4" placeholder="">
+														</div>
+														
+														<div class="form-group ">
+														  <label for="inputEmail4">Email</label>
+														  <input type="email" class="form-control" id="inputEmail4" placeholder="">
+														</div>
+							
+													  
+														<div class="form-group ">
+																
+														   
+														  <label for="inputMessage">Message</label><br>
+														  
+														  <textarea rows="8" cols="65">
+														  </textarea><br>
+														  
+														
+														</div>
+														
+														<button type="submit" class="btn "style="margin-bottom:30px;background-color:#af421d;color:white">Send</button>
+													 
+                                                </form>
+											 
+		                        
+		                    </div>
+							 <div class=" col-sm-12 col-lg-6 text-muted"style="margin-top:40px;">
+												 <i class="fa fa-map-marker " style="width:30px"></i> shohadaa, menoufia<br>
+									<i class="fa fa-phone " style="width:30px"></i> Phone: +201201234569<br>
+									<i class="fa fa-envelope " style="width:30px"> </i> Email: hotel5star@yahoo.com<br>
+							  </div>
+							
+							
+								</div>
+								
+							
+							
+							   </div>
+								
+									  
+									
+		                </div>
+		 
+		 <!-- start Footer -->
+				<footer class="footer text-center" id="footer">
+				  <h5 style="font-size:20px;margin-bottom:20px">Find Us On</h5>
+				  <div class="">
+					<i class="fa fa-facebook-official fa-2x hvr-pop"  style="color:#af421d;padding-right:20px;"></i>
+					<i class="fa fa-instagram fa-2x hvr-pop" style="color:#af421d;padding-right:20px;"></i>
+					<i class="fa fa-snapchat fa-2x hvr-pop" style="color:#af421d;padding-right:20px;"></i>
+					<i class="fa fa-pinterest-p fa-2x hvr-pop" style="color:#af421d;padding-right:20px;"></i>
+					<i class="fa fa-twitter fa-2x hvr-pop" style="color:#af421d;padding-right:20px;"></i>
+					<i class="fa fa-linkedin fa-2x hvr-pop" style="color:#af421d;padding-right:20px;"></i>
+				  </div>
+				  <p  style="font-size:20px;margin-top:10px">Powered by <a  style="color:#af421d;text-decoration:none" href="#" target="_blank" class="hvr-pop">EngSara</a></p>
+		        </footer>
+		<!--end  Footer -->
+
+		        <script src ="js/jquery-3.3.1.min.js"></script>
+				<script src ="js/popper.min.js"></script>
+				<script src ="js/bootstrap.min.js"></script>
+				<script src ="js/script.js"></script>
+		</body>
+</html>
+		 
